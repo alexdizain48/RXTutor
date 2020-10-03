@@ -2,20 +2,15 @@ package com.example.rxtutor;
 
 public class TestGit {
 
-    private int idName;
+   private int id;
     private String name;
 
-    public TestGit(int idName, String name) {
-        this.idName = idName;
-        this.name = name;
+    public int getId() {
+        return id;
     }
 
-    public int getIdName() {
-        return idName;
-    }
-
-    public void setIdName(int idName) {
-        this.idName = idName;
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getName() {
@@ -24,5 +19,13 @@ public class TestGit {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    @Override
+    public String toString() {
+        return "TestGit{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                '}';
     }
 }
