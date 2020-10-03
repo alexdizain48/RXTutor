@@ -10,12 +10,12 @@ public class TestGit {
         this.name = name;
     }
 
-    public int getId() {
-        return id;
+    public int getIdName() {
+        return idName;
     }
 
-    public void setIdName(int id) {
-        this.id = id;
+    public void setIdName(int idName) {
+        this.idName = idName;
     }
 
     public String getName() {
