@@ -3,24 +3,16 @@ package com.example.rxtutor;
 public class TestGit {
 
     //123
-   private int idName;
+   private int id;
 
-    public TestGit(int idName) {
-        this.idName = idName;
-    }
-
-    public int getIdName() {
-        return idName;
-    }
-
-    public void setIdName(int idName) {
-        this.idName = idName;
+    public TestGit(int id) {
+        this.id = id;
     }
    
    @Override
     public String toString() {
         return "TestGit{" +
-                "idName=" + idName +
+                "id=" + id +
                 '}';
     }
 
