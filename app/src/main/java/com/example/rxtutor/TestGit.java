@@ -21,7 +21,6 @@ public class TestGit {
     public String toString() {
         return "TestGit{" +
                 "idName=" + idName +
-                ", name='" + name + '\'' +
                 '}';
     }
 
